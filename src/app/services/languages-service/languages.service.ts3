@@ -1,0 +1,10 @@
+1  import  {  Injectable  }  from '@angular/core';
+2 
+3  @Injectable({
+4    providedIn:  'root'
+5  })
+6  export class LanguagesService {
+7    accesoLanguages = 'languages service running...';
+8
+9    constructor() {}
+10 }
